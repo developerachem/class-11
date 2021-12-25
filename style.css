@@ -1,0 +1,244 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.container {
+    width: 1600px;
+    margin: auto;
+}
+
+body {
+    scroll-behavior: smooth;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+
+}
+
+
+.main-menu {
+    background-image: linear-gradient(90deg, #43cea2, #185a9d);
+}
+
+.menu ul {
+    display: flex;
+    justify-content: center;
+}
+
+.menu ul li {}
+
+.menu ul li a {
+    margin: 20px 15px;
+    color: white;
+    font-size: 18px;
+}
+
+
+.team-section {
+    background-color: #625c5c1f;
+    padding: 80px 0;
+}
+
+.team-section h1 {
+    font-size: 40px;
+    padding-bottom: 17px;
+    margin-left: 17px;
+}
+
+.team-section .team {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+}
+
+.team-section .team-member {
+    width: 18%;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 10px 50px #185b9d4f;
+    margin: 17px 15px;
+}
+
+.team-section .team-member .image {
+    text-align: center;
+}
+
+.team-section .team-member .image img {
+    width: 100%;
+}
+
+.team-section .team-member h2 {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.team-section .team-member h5 {
+    padding: 10px 20px;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.team-section .team-member h5:nth-child(even) {
+    background-image: linear-gradient(220deg, #43cea288, #185b9d85);
+}
+
+.team-section .team-member h5:nth-child(odd) {
+    background-image: linear-gradient(90deg, #43cea288, #185b9d85);
+}
+
+
+.student-section {
+    padding: 80px 0;
+}
+
+.student-section h1 {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.our-student {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+}
+
+.our-student .student {
+    width: 13%;
+    text-align: center;
+    box-shadow: 0px 10px 50px #00000036;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #a0b6f7;
+    margin: 0.5%;
+}
+
+.our-student .student .student-image {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 12px auto;
+}
+
+.our-student .student .student-image img {
+    width: 100%;
+}
+
+.our-student ul {}
+
+.our-student ul li {
+    padding: 6px;
+    font-size: 17px;
+}
+
+.our-student ul li:nth-child(even) {
+    background-color: #6161613b;
+}
+
+.our-student ul li:nth-child(odd) {
+    background-color: #d8d8d485;
+}
+
+img {
+    margin-bottom: 0;
+    max-width: 100%;
+}
+
+table,
+td,
+th {
+    border: 1px solid #ffffff;
+    border-collapse: collapse;
+}
+
+td,
+th {
+    padding: 0 8px;
+    width: auto;
+}
+
+.student-data table th {
+    background: #2a1e62;
+    padding: 15px 10px;
+    color: white;
+}
+
+.student-data table tr:nth-child(even) {
+    background: #72626248;
+}
+
+tr:nth-child(odd) {
+    background: #b6aeae;
+}
+
+tbody td {
+    text-align: center;
+}
+
+.student-data table tbody td:nth-child(2) {
+    padding: 0 !important;
+}
+
+.student-data {
+    margin: 100px 0;
+    background-color: #625c5c1f;
+    padding: 80px 0;
+}
+
+.student-data h1 {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.contact-section {
+    margin: 80px 0;
+}
+
+
+
+.contact-section h1 {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.contact-section .contact {}
+
+.contact-section .contact table {}
+
+.contact-section .contact table thead {
+    background-image: linear-gradient(90deg, #43cea2, #185a9d);
+}
+
+.contact-section .contact table thead tr {
+    background-image: linear-gradient(90deg, #91a436, #130984);
+    color: white;
+    height: 60px;
+    font-size: 20px;
+}
+
+.contact-section .contact table thead tr th {}
+
+.contact-section .contact tbody tr {}
+
+.contact-section .contact tbody tr td {}
+
+.contact-section .contact tbody tr:nth-child(even) {
+    background-image: linear-gradient(90deg, #43cea275, #185a9d99);
+}
+
+.contact-section .contact tbody tr:nth-child(odd) {
+    background-image: linear-gradient(90deg, #43cea230, #185a9d29);
+}
